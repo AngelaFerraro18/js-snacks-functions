@@ -8,7 +8,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 function namesInitials (list1){
     let namesFistLetter = [];
     for ( let i = 0; i < names.length; i++){
-        namesItem = names[i];
+        let namesItem = names[i];
         namesFistLetter.push(namesItem.at(0));
     
     } return namesFistLetter;
@@ -18,7 +18,7 @@ function namesInitials (list1){
 const namesInitials = list1 => {
     let namesFistLetter = [];
     for ( let i = 0; i < names.length; i++){
-        namesItem = names[i];
+        let namesItem = names[i];
         namesFistLetter.push(namesItem.at(0));
     
     } return namesFistLetter;

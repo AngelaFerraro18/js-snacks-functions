@@ -8,7 +8,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 function namesInitA (list1){
     let namesStartA = [];
     for ( let i = 0; i < names.length; i++){
-        namesItem = names[i];
+        let namesItem = names[i];
         if (namesItem.at(0) === 'A'){
             namesStartA.push(namesItem);
         }
@@ -20,7 +20,7 @@ function namesInitA (list1){
 const namesInitA = list1 =>{
     let namesStartA = [];
     for ( let i = 0; i < names.length; i++){
-        namesItem = names[i];
+        let namesItem = names[i];
         if (namesItem.at(0) === 'A'){
             namesStartA.push(namesItem);
         }
