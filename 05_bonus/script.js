@@ -11,11 +11,12 @@ const nameUser = 'Mario';
 
 function helloUser(userName) {
     const today = new Date();
+    let hours = today.getHours();
     let saluto;
 
-    if (today < 13) {
+    if (hours < 13) {
         saluto = `Buongiorno ${nameUser}`;
-    } else if (today < 17) {
+    } else if (hours < 17) {
         saluto = `Buon pomeriggio ${nameUser}`;
     } else {
         saluto = `Buonasera ${nameUser}`;
