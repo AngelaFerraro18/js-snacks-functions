@@ -5,9 +5,33 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+function namesInitA (list1){
+    let namesStartA = [];
+    for ( let i = 0; i < names.length; i++){
+        namesItem = names[i];
+        if (namesItem.at(0) === 'A'){
+            namesStartA.push(namesItem);
+        }
+    
+    } return namesStartA;
+}
 
+/* soluzione arrow function
+const namesInitA = list1 =>{
+    let namesStartA = [];
+    for ( let i = 0; i < names.length; i++){
+        namesItem = names[i];
+        if (namesItem.at(0) === 'A'){
+            namesStartA.push(namesItem);
+        }
+    
+    } return namesStartA;
+}
+*/
+ 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+console.log(namesInitA(names));
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
+
