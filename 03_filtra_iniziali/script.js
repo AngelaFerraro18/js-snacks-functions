@@ -17,7 +17,7 @@ function namesInitA (list1, string){
 }
 
 /* soluzione arrow function
-const namesInitA = list1 =>{
+const namesInitA = (list1, string) =>{
     let namesStartA = [];
     for ( let i = 0; i < list1.length; i++){
         let namesItem = list1[i];
