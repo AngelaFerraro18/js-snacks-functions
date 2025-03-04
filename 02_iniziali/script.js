@@ -7,8 +7,8 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 function namesInitials (list1){
     let namesFistLetter = [];
-    for ( let i = 0; i < names.length; i++){
-        let namesItem = names[i];
+    for ( let i = 0; i < list1.length; i++){
+        let namesItem = list1[i];
         namesFistLetter.push(namesItem.at(0));
     
     } return namesFistLetter;
@@ -17,8 +17,8 @@ function namesInitials (list1){
 /* soluzione arrow function
 const namesInitials = list1 => {
     let namesFistLetter = [];
-    for ( let i = 0; i < names.length; i++){
-        let namesItem = names[i];
+    for ( let i = 0; i < list1.length; i++){
+        let namesItem = list1[i];
         namesFistLetter.push(namesItem.at(0));
     
     } return namesFistLetter;
