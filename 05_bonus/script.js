@@ -15,13 +15,13 @@ function helloUser(userName) {
     let saluto;
 
     if (hours < 13) {
-        saluto = `Buongiorno ${nameUser}`;
+        saluto = `Buongiorno`;
     } else if (hours < 17) {
-        saluto = `Buon pomeriggio ${nameUser}`;
+        saluto = `Buon pomeriggio`;
     } else {
-        saluto = `Buonasera ${nameUser}`;
+        saluto = `Buonasera`;
     }
-    return saluto;
+    return `${saluto} ${userName}`;
 }
 
 /* soluzione arrow function
